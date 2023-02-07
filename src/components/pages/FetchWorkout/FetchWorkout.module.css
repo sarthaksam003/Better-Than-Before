@@ -1,0 +1,65 @@
+.DesktopDatePicker {
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  display: block;
+  padding: 1em;
+  margin: 1em;
+  /* border-radius: 1em; */
+  width: 50%;
+}
+.MobileDatePicker {
+  color: white;
+  display: none;
+}
+.fetch-workout-layout {
+  display: flex;
+  padding: 1em;
+}
+.logged-exercises-card {
+  /* border: 2px solid red; */
+  font-family: Source Sans Pro;
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  margin: 3em;
+  text-transform: capitalize;
+}
+.no-exercises {
+  /* border: 2px solid red; */
+  font-family: Source Sans Pro;
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+  margin: 3em;
+  color: white;
+}
+.fetch-workout-heading {
+  font-family: Bebas Neue;
+  color: white;
+  margin: 1em 2em;
+  font-size: 2em;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 600px) {
+  .DesktopDatePicker {
+    display: none;
+  }
+  .fetch-workout-layout {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .MobileDatePicker {
+    display: flex;
+    justify-content: center;
+  }
+  .logged-exercises-card {
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    margin: 3em;
+  }
+}

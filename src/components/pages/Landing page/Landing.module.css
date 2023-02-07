@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+.landing-page-layout {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+}
+.landing-page-left {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 50%;
+  padding: 5em;
+}
+.landing-page-heading {
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 6em;
+  line-height: 1.2em;
+}
+
+.landing-page-sub-heading {
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 1.4em;
+}
+.b4b-styling {
+  color: #00b712;
+  font-weight: 600;
+}
+.explore-exercises-btn {
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.landing-page-right {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.bubble {
+  position: absolute;
+  background: linear-gradient(#fce043, #00b712);
+  /* width: 35rem;
+  height: 35rem; */
+  width: 79vh;
+  height: 79vh;
+  border-radius: 30rem;
+  z-index: -1;
+  animation: blobby 9s linear infinite;
+}
+#landingImg {
+  /* transform: translate(20%, -19%); */
+  z-index: -1;
+  height: 81vh;
+}
+@keyframes blobby {
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28%/42% 42% 56% 48%;
+  }
+  33% {
+    border-radius: 72% 28% 48% 48%/28% 28% 72% 72%;
+  }
+  66% {
+    border-radius: 100% 56% 56% 100%/100% 100% 56% 56%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page-layout {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+  }
+  .landing-page-left {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 5em 2em;
+  }
+  .landing-page-heading {
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 5em;
+  }
+
+  .landing-page-sub-heading {
+    color: white;
+    font-family: Source Sans Pro;
+    margin: 5% 0 10% 0;
+  }
+  .explore-exercises-btn {
+    color: white;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+  }
+  .landing-page-right {
+    display: none;
+  }
+}

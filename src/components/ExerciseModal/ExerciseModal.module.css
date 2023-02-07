@@ -1,0 +1,210 @@
+.modal-layout {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1001;
+}
+.modal-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.alert {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  justify-content: center;
+}
+.cross {
+  color: white;
+  position: absolute;
+  top: 4em;
+  right: 4em;
+  display: inline-block;
+  justify-content: end;
+  cursor: pointer;
+  /* border: 2px solid red; */
+  width: auto;
+}
+.exercise-illustration-img {
+  border: 2px solid red;
+  margin: 3em 0;
+}
+
+.exercise-illustration {
+  width: 30em;
+}
+
+#card-layout {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  box-shadow: inset;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 70%;
+}
+
+.exercise-details {
+  width: 50%;
+  /* text-align: center; */
+  padding: 4px;
+  /* border: 2px solid red; */
+  margin: 3em 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.exercise-details-table {
+  /* border: 2px solid red; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 17em;
+}
+
+.form-inline-heading {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  position: relative;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  position: relative;
+}
+/* 
+.form-inline label {
+  margin: 5px 10px 5px 0;
+} */
+
+.form-inline input {
+  margin-left: 0 2em;
+  vertical-align: middle;
+  /* margin: 0; */
+  width: 7em;
+  padding: 0.5em 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.button-section {
+  display: flex;
+  margin: 3em 0 0 5em;
+  justify-content: space-around;
+}
+.button {
+  padding: 0.7em 1.7em;
+  border-radius: 0.3em;
+  background-color: rgb(22, 163, 74);
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+.disabled-button {
+  padding: 0.7em 1.7em;
+  border-radius: 0.3em;
+  background-color: grey;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(47, 200, 93);
+}
+
+.remove {
+  position: absolute;
+  right: 0;
+  border-radius: 0.2em;
+  background-color: rgb(192, 53, 53);
+}
+.remove:hover {
+  background-color: rgb(236, 95, 95);
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-layout {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .form-inline {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .input-field {
+    width: 7em;
+  }
+  .button-section {
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+  }
+  .button {
+    width: 7em;
+    margin: 1em;
+  }
+  .disabled-button {
+    margin: 1em;
+    width: 7em;
+  }
+  .cross {
+    color: white;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: inline-block;
+    justify-content: end;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    width: auto;
+  }
+  .modal-layout img {
+    /* border: 2px solid red; */
+    width: 15em;
+    padding: 2em 0 0 0;
+  }
+
+  .exercise-illustration {
+    /* border: 2px solid red; */
+    width: 15em;
+  }
+
+  #card-layout {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    box-shadow: inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    overflow-y: scroll;
+  }
+
+  .exercise-details {
+    width: 100%;
+    text-align: center;
+    padding: 0.6em;
+    overflow-y: scroll;
+  }
+}

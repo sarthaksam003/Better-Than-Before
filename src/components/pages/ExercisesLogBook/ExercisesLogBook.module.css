@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+.logged-exercises-layout {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.exercises-logged-heading {
+  color: white;
+}
+
+.logged-exercises-details {
+  font-family: Source Sans Pro;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+.logged-exercises-card {
+  font-family: Source Sans Pro;
+  width: 65%;
+  margin: auto;
+}
+
+.here-styling {
+  color: #00b712;
+  font-weight: 600;
+}
+
+.button-section {
+  display: flex;
+  margin: 3em;
+  justify-content: space-evenly;
+}
+.button {
+  padding: 0.7em 1.7em;
+  border-radius: 0.3em;
+  background-color: rgb(22, 163, 74);
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(47, 200, 93);
+}
+.date-of-workout-input {
+  display: flex;
+  justify-content: center;
+  margin: 1em 1em 3em 1em;
+}
+.title-of-workout {
+  margin: 0 1em;
+  width: 30em;
+}
+.date-of-workout-desktop {
+  display: block;
+  margin: 0 1em;
+}
+.date-of-workout-mobile {
+  display: none !important;
+}
+.delete-icon {
+  position: absolute;
+  right: 2em;
+  bottom: 0.3em;
+}
+@media only screen and (max-width: 600px) {
+  .logged-exercises-card {
+    font-family: Source Sans Pro;
+    width: 100%;
+    margin: auto;
+  }
+  .date-of-workout-desktop {
+    display: none !important;
+  }
+  .date-of-workout-mobile {
+    margin: 2em 1em 0 0 !important;
+    display: block !important;
+  }
+  .date-of-workout-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 1em 3em 1em;
+  }
+  .title-of-workout {
+    width: 100%;
+  }
+  .button-section {
+    display: flex;
+    margin: 3em 0 0 0;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+  .button {
+    padding: 0.7em 1.7em;
+    border-radius: 0.3em;
+    background-color: rgb(22, 163, 74);
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+}

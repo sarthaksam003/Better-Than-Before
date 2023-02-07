@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+.muscle-groups-layout {
+  width: 100%;
+  padding: 1em;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.muscle-group-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 2px solid red; */
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: Source Sans Pro;
+}
+.muscle-group-cards img {
+  width: 15em;
+}
+.muscle-group-cards div {
+  margin: 1em 2em 0 2em;
+  text-align: center;
+  width: 15em;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+.muscle-groups-heading {
+  font-family: Bebas Neue;
+  color: white;
+  margin: 1em 2em;
+  font-size: 2em;
+  text-align: center;
+  /* border: 2px solid red; */
+}

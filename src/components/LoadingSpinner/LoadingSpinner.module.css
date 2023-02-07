@@ -1,0 +1,23 @@
+.loadingspinner-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.loadingspinner-img {
+  width: 5em;
+  margin: 1em;
+  animation: spin 2s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
