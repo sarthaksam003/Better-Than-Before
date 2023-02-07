@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Landing.module.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import { Typography } from "@mui/material";
 
 const Landing = () => {
   return (
