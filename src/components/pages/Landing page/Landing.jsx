@@ -28,9 +28,8 @@ const Landing = () => {
         </div>
       </div>
       <div className={classes["landing-page-right"]}>
-        <div className={classes["bubble"]}></div>
         <img
-          src={require("./assets/landing5.png")}
+          src={require("./assets/background-overlay.jpg")}
           alt=""
           id={classes.landingImg}
         />

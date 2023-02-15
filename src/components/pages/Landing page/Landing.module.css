@@ -40,21 +40,15 @@
   /* border: 2px solid red; */
   width: 50%;
 }
-.bubble {
-  position: absolute;
-  background: linear-gradient(#fce043, #00b712);
-  /* width: 35rem;
-  height: 35rem; */
-  width: 79vh;
-  height: 79vh;
-  border-radius: 30rem;
-  z-index: -1;
-  animation: blobby 9s linear infinite;
-}
 #landingImg {
+  /* width: 0%; */
+  /* height: 100%; */
   /* transform: translate(20%, -19%); */
-  z-index: -1;
+  z-index: 1;
   height: 81vh;
+  /* animation: blobby2 9s linear infinite; */
+  /* clip-path: polygon(42% 56% 72% 28%/42% 42% 56% 48%); */
+  animation: blobby 9s linear infinite;
 }
 @keyframes blobby {
   0%,
@@ -66,6 +60,18 @@
   }
   66% {
     border-radius: 100% 56% 56% 100%/100% 100% 56% 56%;
+  }
+}
+@keyframes blobby2 {
+  0%,
+  100% {
+    border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  }
+  33% {
+    border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  }
+  66% {
+    border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
   }
 }
 

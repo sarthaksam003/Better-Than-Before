@@ -1,3 +1,67 @@
+<h1 align="center">
+  <br>
+  <a href="#"><img src="./public/b4bfavicon.png" alt="B4B" width="200"></a>
+  <br>
+      <br>
+Better Than Before - Workout Tracker App
+  <br>
+</h1>
+<p align="center">
+  <a href="#Introduction">Introduction</a> •
+  <a href="#Key-features">Key features</a> •
+  <a href="#Desktop-View-of-the-App">Desktop View of the App</a> •
+  <a href="#Mobile-View-of-the-App">Mobile View of the App</a> •
+  <a href="#Technologies-used-in-this-project">Technologies used in this project</a> •
+  <a href="#Deployed-version-of-project">Deployed version of project</a> •
+  <a href="#Getting-Started-with-Create-React-App">Getting started</a> •
+</p>
+
+## Introduction
+
+As I was learning how to work in ReactJS and about how to use state management systems in React to manage states of state variables, I decided to create this project as a practice to reinforce all the concepts used to create a Redux store in a React app and apply here.
+
+In process of developing this project, I learned following things:
+
+- How Redux works
+- Using the Redux toolkit
+- Creating a redux store and granting subscription to the various components in the app
+- Creating slices in a store and providing them to components to use state variables and functions that operate on those state variables
+- Working with APIs to fetch, retrieve and post data
+- Material UI for React
+- Responsive layouts with flex and grid
+
+# Key features
+
+- A fully responsive webapp to track gym/home workouts using ExerciseDB API.
+- The app uses Firebase Realtime Databases to store and retrieve data entered by users.
+- Users can browse a large collection of exercises categorized by target muscles provided by ExerciseDB API.
+- Users can log info about their exercises, repetitions performed, sets performed on an exercise and even weights lifted in each set.
+- The app allows users to save workouts and retrieve them by date from firebase to track progress.
+
+# Desktop View of the App
+
+<img src = "./public/desktop-view.gif" alt="desktop-view"/>
+
+# Mobile View of the App
+
+<img src = "./public/mob-view.gif" alt="mobile-view" style="width:20rem;"/>
+
+# Technologies used in this project
+
+- <a href="https://www.w3schools.com/react/">React</a>
+- <a href="https://www.w3schools.com/js/">JavaScript</a>
+- <a href="https://www.w3schools.com/html/">HTML</a>
+- <a href="https://www.w3schools.com/css/">CSS</a>
+- <a href="https://redux.js.org/">Redux</a>
+- <a href="https://mui.com/">Material UI</a>
+- <a href="https://www.exercisedb.io/">ExerciseDb API</a>
+- <a href="https://www.npmjs.com/package/react-multi-carousel">React multi carousel</a>
+- <a href="https://day.js.org/">DayJS</a>
+
+# Deployed version of the project
+
+This project is deployed <a href="https://better-than-before.netlify.app/">here</a> using Netlify.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
