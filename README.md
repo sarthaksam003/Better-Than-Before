@@ -9,11 +9,12 @@ Better Than Before - Workout Tracker App
 <p align="center">
   <a href="#Introduction">Introduction</a> •
   <a href="#Key-features">Key features</a> •
-  <a href="#Desktop-View-of-the-App">Desktop View of the App</a> •
-  <a href="#Mobile-View-of-the-App">Mobile View of the App</a> •
+  <a href="#Desktop-And-Mobile-View-of-the-App">Desktop and Mobile View of the App</a> •
   <a href="#Technologies-used-in-this-project">Technologies used in this project</a> •
   <a href="#Deployed-version-of-project">Deployed version of project</a> •
   <a href="#Getting-Started-with-Create-React-App">Getting started</a> •
+  <a href="#Getting-Started-with-Create-React-App">Acknowledgment</a> •
+  <a href="#Getting-Started-with-Create-React-App">Contact</a> •
 </p>
 
 ## Introduction
@@ -38,13 +39,18 @@ In process of developing this project, I learned following things:
 - Users can log info about their exercises, repetitions performed, sets performed on an exercise and even weights lifted in each set.
 - The app allows users to save workouts and retrieve them by date from firebase to track progress.
 
-# Desktop View of the App
+# Desktop and Mobile View of the App
 
-<img src = "./public/desktop-view.gif" alt="desktop-view"/>
-
-# Mobile View of the App
-
-<img src = "./public/mob-view.gif" alt="mobile-view" style="width:20rem;"/>
+<div style="display:flex;justify-content:space-evenly;align-items:center">
+<div style="display:flex;flex-direction:column;align-items:center">
+<img src = "./public/desktop-view.gif" alt="desktop-view" align="center"/>
+<p style="margin:1em 0">Desktop View</p>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center">
+<img src = "./public/mob-view.gif" alt="mobile-view" style="width:13rem;height:24rem"/>
+<p style="margin:1em 0">Mobile View</p>
+</div>
+</div>
 
 # Technologies used in this project
 
@@ -132,3 +138,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Acknowledgment
+
+- <a href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/">
+  JavaScript - The Complete Guide 2023 Created by Academind Maximillian Schwarzmuller
+  </a>
+- <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+  React - The Complete Guide Created by Academind Maximillian Schwarzmuller
+  </a>
+- <a href="https://www.udemy.com/course/advanced-css-and-sass/">
+  Advanced CSS and Sass Created by Jonas Schmedtmann
+  </a>
+- <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">
+  The Web Developer Bootcamp 2023 Created by Colt Steele
+  </a>
+- <a href="https://www.w3schools.com/">W3 Schools</a>
+- <a href="https://css-tricks.com/">CSS Tricks</a>
+
+# Contact
+
+Name - Sarthak Sambharia</br>
+E-mail - sarthaksambharia@gmail.com</br>
+Project Repository - <a href="https://github.com/sarthaksam003/Better-Than-Before">Better than Before</a></br>
+Deployed project - <a href="https://better-than-before.netlify.app/">Better than Before</a>
